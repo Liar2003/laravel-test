@@ -10,6 +10,6 @@
         <link rel="stylesheet" href="{{ secure_asset('assets/style.css') }}">
     <body>
         <div id="root"></div>
-        <script src="https://laravel.pxxl.click/assets/script.js"></script>
+        <script src="{{ secure_asset('assets/style.css') }}"></script>
       </body>
 </html>
