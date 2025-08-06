@@ -7,9 +7,9 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <title>Lugyi + Admin</title>
-        <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
+        <link rel="stylesheet" href="https://laravel.pxxl.click/assets/style.css">
     <body>
         <div id="root"></div>
-        <script src="{{ asset('assets/script.js') }}"></script>
+        <script src="https://laravel.pxxl.click/assets/script.js"></script>
       </body>
 </html>
