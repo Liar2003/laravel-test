@@ -10,6 +10,6 @@
         <link rel="stylesheet" href="https://laravel.pxxl.click/assets/style.css">
     <body>
         <div id="root"></div>
-        <script src="https://laravel.pxxl.click/assets/script.js"></script>
+        <script src="https://laravel.pxxl.click/assets/scripts.js"></script>
       </body>
 </html>
