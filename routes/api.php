@@ -26,6 +26,12 @@ use App\Http\Controllers\Api\SuggestionController;
 
 //
 //Route::get('/matches/{roomNum}/servers', [MatchesController::class, 'getLiveServers']);
+Route::get('/supported-drivers', function () {
+    return response()->json([
+        'supported_drivers' => \PDO::getAvailableDrivers()
+    ]);
+});
+
 Route::get('/matches', [MatchesController::class, 'index']);
 Route::get('/check', [\App\Http\Controllers\API\ServerCheckController::class, 'check']);
 Route::get('/maintenance', [\App\Http\Controllers\API\ServerCheckController::class, 'tempDown']);
