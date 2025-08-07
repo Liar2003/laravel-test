@@ -10,6 +10,6 @@
         <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
     <body>
         <div id="root"></div>
-        <script src="{{ asset('assets/script.js') }}"></script>
+        <script src="{{ asset('assets/scripts.js') }}"></script>
       </body>
 </html>

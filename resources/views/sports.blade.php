@@ -7,9 +7,9 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <title>Lugyi + Admin</title>
-        <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('assets/style.css') }}">
     <body>
         <div id="root"></div>
-        <script src="{{ asset('assets/script.js') }}"></script>
+        <script src="{{ secure_asset('assets/scripts.js') }}"></script>
       </body>
 </html>
